@@ -28,11 +28,15 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 .navitems a{
     color: white !important;
+}
+
+.nav-link ,.navbar-brand{
+  font-size: 1.4rem
 }
 
 .fa.fa-navicon {
@@ -153,7 +157,7 @@ body{
 
 @media only screen and (max-width: 500px) {
   .navbar img{
-    width: 20% !important;
+    width: 23% !important;
     height: auto;
   }
 
@@ -168,5 +172,13 @@ body{
 
   .fa-align-justify{
     margin-top: 6px;
+  }
+
+  .card{
+     margin: 20px 6px !important;
+  }
+
+  .nav-link ,.navbar-brand{
+    font-size: 1rem
   }
 }
