@@ -1,4 +1,85 @@
-*{
+body{
   margin: 0;
   padding: 0;
+  color: white;
+}
+
+/*navbar*/
+
+.navbar{
+  width: 100%;
+  height: 150px;
+  background-color: #2c2342;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.navbar img{
+  width: 7%;
+  height: auto;
+}
+
+.navitems{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
+.navitems a{
+    color: white !important;
+}
+
+.fa.fa-navicon {
+  color:white;
+}
+
+/*cards*/
+
+.boxes{
+  background: url("images/atom background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #643ebe;
+  width: 100%;
+  padding: 80px 50px 50px 50px;
+}
+
+.card{
+   margin: 30px 35px !important;
+}
+
+.border-8 {
+    border-width:8px !important;
+}
+
+.overlaybottom{
+  position: absolute;
+  height: 0;
+  background-color: #2c2342;
+  color: white;
+  opacity: .8;
+  top: 100%;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+#test1:hover .overlaybottom , #test2:hover .overlaybottom , #test3:hover .overlaybottom , #test4:hover .overlaybottom , #test5:hover .overlaybottom , #test6:hover .overlaybottom , #test7:hover .overlaybottom , #test8:hover .overlaybottom , #test9:hover .overlaybottom , #test10:hover .overlaybottom{
+  top: 0;
+  height: 100%;
+}
+
+.content h3{
+  text-align: center;
+}
+
+.content p{
+  padding: 0 6px;
+}
+.content hr{
+  text-align: center;
+  width: 80%;
+  border: 1px solid white
 }
