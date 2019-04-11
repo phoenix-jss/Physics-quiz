@@ -39,6 +39,52 @@ body{
   color:white;
 }
 
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top:38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1 rem .1rem .8rem black;
+  padding-bottom:1 rem;
+}
+.caption h3{
+  font-size: 2 rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6 rem;
+}
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+}
+
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 20px;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color:#3dff3e;
+  background-color: #3dff3e;
+  color: #0F7F3F;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #0D9949;
+  background-color: #3dff3e;
+}
+
 /*cards*/
 
 .boxes{
