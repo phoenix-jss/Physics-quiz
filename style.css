@@ -2,6 +2,11 @@ body{
   margin: 0;
   padding: 0;
   color: white;
+  background: url("images/atom background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #37295a;
 }
 
 /*navbar*/
@@ -37,11 +42,6 @@ body{
 /*cards*/
 
 .boxes{
-  background: url("images/atom background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #643ebe;
   width: 100%;
   padding: 80px 50px 50px 50px;
 }
@@ -82,4 +82,26 @@ body{
   text-align: center;
   width: 80%;
   border: 1px solid white
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+  .navbar img{
+    width: 20% !important;
+    height: auto;
+  }
+
+  .navbar{
+    width: 100%;
+    height: 120px;
+  }
 }
