@@ -52,6 +52,7 @@ body{
 
 .collapse{
   background: #2c2342 !important;
+  z-index: 2;
   /* width: 20vh !important; */
 }
 .caption{
