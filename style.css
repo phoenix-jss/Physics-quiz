@@ -49,6 +49,11 @@ body{
   right:10px;
   width:6vw;
 }
+
+.collapse{
+  background: #2c2342 !important;
+  /* width: 20vh !important; */
+}
 .caption{
   width: 100%;
   max-width: 100%;
