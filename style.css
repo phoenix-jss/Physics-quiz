@@ -43,6 +43,12 @@ body{
   color:white;
 }
 
+#avatar{
+  position:absolute;
+  top:4px;
+  right:10px;
+  width:6vw;
+}
 .caption{
   width: 100%;
   max-width: 100%;
@@ -180,5 +186,9 @@ body{
 
   .nav-link ,.navbar-brand{
     font-size: 1rem
+  }
+
+  #avatar{
+    width: 12vh !important;
   }
 }
