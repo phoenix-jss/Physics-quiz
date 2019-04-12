@@ -132,7 +132,7 @@ body{
 .grid{
   width:90%;
   height:500px;
-  margin:0 auto;
+  margin-top: 10%;
   background-color:#3f3069;
   padding:50px 50px 50px 50px;
   border-radius:50px;
