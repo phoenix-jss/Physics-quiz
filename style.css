@@ -209,9 +209,12 @@ hr.socket {
 .home-inner{
   background-image: url("images/atom background.png");
   background-blend-mode: multiply;
+  position: absolute;
 }
 .home-inside{
   background-image: url("images/phy project back side.png");
+  z-index: 2;
+  position: relative;
 }
 .offset::before{
   display: block;

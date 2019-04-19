@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["Are u fucked up in life?","No. of days in a week?","No of mounths in a year?","Captian of indian cricket team?","Who played guddu in Mirzapur?"],
-    opt1 : ["Yes","2","8","MS Dhoni"],
-    opt2 : ["No","7","10","V Kholi"],
-    opt3 : ["Not Sure","5","12","Rohit Sharma"],
-    opt4 : ["Hapily fucked up","6","11","S Raina"],
-    answer : ["Hapily fucked up","7","12","V Kholi","Ali faizal"]
+    questions : ["Which type of lens is used in newton's ring experiment?","Centre of the rings is?","At what angle the glass plate is employed?","What is the Standard value of the wavelength of sodium light?","What happens when a dust particle comes between the two surfaces at the point of contact?"],
+    opt1 : ["Concave lens of large focal length","Bright","60°","5898 A°","Centre becomes bright"],
+    opt2 : ["Plano concave lens of large focal length","Half moon","45°","5890 A°","Centre becomes dark"],
+    opt3 : ["Plano convex lens of large focal length","Dark","75°","5873 A°","Diameter of Centre increases"],
+    opt4 : ["Plano convex lens of small focal length","Can't predict","90°","5893 A°","Diameter of centre decreases"],
+    answer : ["Plano convex lens of large focal length","Dark","45°","5893 A°","Centre becomes bright"]
 };
 
 var i = 0;
