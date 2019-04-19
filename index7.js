@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["On which principle it is based on?","On which of the following factors does specific resistance depends upon?","What is the unit of specific resistance?","What is the least count for screw gauge?","What is the correct expression for percentage error?"],
-    opt1 : ["refraction","length","ohm","0.001mm","(Standard Value - Observed Value)/ Standard Value X100"],
-    opt2 : ["reflection","temp","mho","0.01mm","Standard Value/Observed Value"],
-    opt3 : ["KVL","nature of material","henry","0.0001mm","Observed Value/Standard Value X100"],
-    opt4 : ["Wheat stone bridge","all of the above","ohm-m","0mm","None ot these"],
-    answer : ["Wheat stone bridge","temp","ohm-m","0.01mm","(Standard Value - Observed Value)/ Standard Value X100"]
+    questions : ["Formula of magnetic field intensity is F=2(3.14)nI/(r.10^x), where ‘x’ is","According to tangent law the magnetic field intensity(F) is","The value of current should be adjusted such that deflection in galvanometer lies between","What is the magnetic field outside a solenoid?","Which, among the following qualities, is not affected by the magnetic field?"],
+    opt1 : ["5","H tanθ","65-70","Infinity","Moving charge"],
+    opt2 : ["6","H/tanθ","70-75","Half the value of the field inside","Change in magnetic flux"],
+    opt3 : ["7","H cotθ","80-85","Double the value of the field inside","Current flowing in a conductor"],
+    opt4 : ["8","H/cotθ","90-95","Zero","Stationary charge"],
+    answer : ["7","H tanθ","70-75","Zero","Stationary charge"]
 };
 
 var i = 0;

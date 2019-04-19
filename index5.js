@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["Are u fucked up in life?","No. of days in a week?","No of mounths in a year?","Captian of indian cricket team?","Who played guddu in Mirzapur?"],
-    opt1 : ["Yes","2","8","MS Dhoni"],
-    opt2 : ["No","7","10","V Kholi"],
-    opt3 : ["Not Sure","5","12","Rohit Sharma"],
-    opt4 : ["Hapily fucked up","6","11","S Raina"],
-    answer : ["Hapily fucked up","7","12","V Kholi","Ali faizal"]
+    questions : ["Mathematically Numerical Aperture is define as:","What can cause an error in this experiment?","What is the principle of working of an Optical Fibre?","On what factors the Numerical Aperture depends?","With what angle a ray should enter an Optical Fibre for propagation?"],
+    opt1 : ["N.A. =  W/√(4L2+W2)","Intensity of LASER.","Refraction of light.","Wavelength of Light.","θ = sin-1μ"],
+    opt2 : ["N.A. = L/√(4L2-W2)","Bend in Optical Fibre.","Refraction of light.","Refractive index.","θ<=∝"],
+    opt3 : [" N.A. = W/√(4L2-W2)","Length of Optical Fibre.","TIR.","Length of the Optical Fibre.","θ>∝"],
+    opt4 : [" N.A. = L/√(4L2+W2) ","None of the Above.","None of the Above.","None of the above.","None of the Above."],
+    answer : ["N.A. =  W/√(4L2+W2)","Bend in Optical Fibre.","TIR.","Refractive index.","θ<=∝"]
 };
 
 var i = 0;
