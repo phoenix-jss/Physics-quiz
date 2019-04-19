@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["Are u fucked up in life?","No. of days in a week?","No of mounths in a year?","Captian of indian cricket team?","Who played guddu in Mirzapur?"],
-    opt1 : ["Yes","2","8","MS Dhoni"],
-    opt2 : ["No","7","10","V Kholi"],
-    opt3 : ["Not Sure","5","12","Rohit Sharma"],
-    opt4 : ["Hapily fucked up","6","11","S Raina"],
-    answer : ["Hapily fucked up","7","12","V Kholi","Ali faizal"]
+    questions : ["On which principle it is based on?","On which of the following factors does specific resistance depends upon?","What is the unit of specific resistance?","What is the least count for screw gauge?","What is the correct expression for percentage error?"],
+    opt1 : ["refraction","length","ohm","0.001mm","(Standard Value - Observed Value)/ Standard Value X100"],
+    opt2 : ["reflection","temp","mho","0.01mm","Standard Value/Observed Value"],
+    opt3 : ["KVL","nature of material","henry","0.0001mm","Observed Value/Standard Value X100"],
+    opt4 : ["Wheat stone bridge","all of the above","ohm-m","0mm","None ot these"],
+    answer : ["Wheat stone bridge","temp","ohm-m","0.01mm","(Standard Value - Observed Value)/ Standard Value X100"]
 };
 
 var i = 0;
