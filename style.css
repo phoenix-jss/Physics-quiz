@@ -7,6 +7,7 @@ body{
   background-size: cover;
   background-position: center;
   background-color: #37295a;
+  overflow-x: hidden;
 }
 
 /*navbar*/
@@ -163,13 +164,60 @@ body{
 }
 
 
+/*footer*/
+
+footer{
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 2rem;
+  background-image: url("images/footer.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+footer img{
+  height: 7rem;
+  margin: 1.5rem 0rem;
+}
+footer a{
+  color: white;
+}
+footer svg.svg-inline--fa{
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0rem 0rem;
+}
+footer svg.svg-inline--fa:hover{
+  color: #1EBBA3!important;
+}
+footer .fab{
+  font-size: 2rem;
+  margin: 1rem;
+
+}
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+}
+.home-inner{
+  background-image: url("images/atom background.png");
+  background-blend-mode: multiply;
+}
+.home-inside{
+  background-image: url("images/phy project back side.png");
+}
+.offset::before{
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: 20rem;
+}
+blockquote .svg-inline--fa{
+  color: #1EBBA3;
+  margin: 1rem;
+}
 
 
-
-
-
-
-
+/*footer*/
 
 @media only screen and (max-width: 500px) {
   .navbar img{
