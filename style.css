@@ -9,6 +9,14 @@ body{
   background-color: #37295a;
 }
 
+a{
+  color: white;
+  font-weight: 900;
+}
+a:hover{
+  text-decoration: none;
+}
+
 /*navbar*/
 
 .navbar{
