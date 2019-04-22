@@ -114,7 +114,7 @@ a:hover{
 
 .boxes{
   width: 100%;
-  padding: 80px 50px 50px 50px;
+  padding: 80px 50px 0 50px;
 }
 
 .card{

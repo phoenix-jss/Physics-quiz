@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["Which one of the following is the mathematical adaptation of Stefan’s Law?","Which form does the equation of the slope of Stefan’s Law have?","In this experiment,The graph of Stefan’s Law is plotted between :"," In this experiment, R0= ?","What could lead to an error in this experiment?"],
-    opt1 : ["E=σ(T-T0)","y=mx+c","Log10P on X-axis & Log10T on Y-axis","Rg/3","High Current"],
-    opt2 : ["E=σ(T2-T02)","y=4ax2","P on X-axis & T on Y-axis"," Rg","Steady Current"],
-    opt3 : ["E=σ(T3-T03)"," xy=1","Log10P on Y-axis & Log10T on X-axis","Rg/3.9","External Pressure"],
-    opt4 : ["E=σ(T4-T04)","  x2+y2=1","P on Y-axis & T on X-axis"," Rg/2","External Temperature"],
-    answer : ["E=σ(T4-T04)","y=mx+c","Log10P on Y-axis & Log10T on X-axis","Rg/3.9"," High Current"]
+    questions : ["Are u fucked up in life?","No. of days in a week?","No of mounths in a year?","Captian of indian cricket team?","Who played guddu in Mirzapur?"],
+    opt1 : ["Yes","2","8","MS Dhoni"],
+    opt2 : ["No","7","10","V Kholi"],
+    opt3 : ["Not Sure","5","12","Rohit Sharma"],
+    opt4 : ["Hapily fucked up","6","11","S Raina"],
+    answer : ["Hapily fucked up","7","12","V Kholi","Ali faizal"]
 };
 
 var i = 0;
@@ -23,17 +23,12 @@ document.getElementById("op3").innerHTML = quiz.opt3[i];
 document.getElementById("op4").innerHTML = quiz.opt4[i];
 
 function changeContent(){
-  if(i>=4){
-    document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
-  }
-  else{
-    document.getElementById("score").innerHTML = score;
-    document.getElementById("question").innerHTML = quiz.questions[i];
-    document.getElementById("op1").innerHTML = quiz.opt1[i];
-    document.getElementById("op2").innerHTML = quiz.opt2[i];
-    document.getElementById("op3").innerHTML = quiz.opt3[i];
-    document.getElementById("op4").innerHTML = quiz.opt4[i];
-  }
+  document.getElementById("score").innerHTML = score;
+  document.getElementById("question").innerHTML = quiz.questions[i];
+  document.getElementById("op1").innerHTML = quiz.opt1[i];
+  document.getElementById("op2").innerHTML = quiz.opt2[i];
+  document.getElementById("op3").innerHTML = quiz.opt3[i];
+  document.getElementById("op4").innerHTML = quiz.opt4[i];
 }
 
 function next(){
