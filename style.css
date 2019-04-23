@@ -121,6 +121,14 @@ a:hover{
    margin: 30px 35px !important;
 }
 
+.cardheight{
+  height: 35vh !important;
+}
+
+.name{
+  font-size: 20px !important;
+}
+
 .border-8 {
     border-width:8px !important;
 }
@@ -148,6 +156,7 @@ a:hover{
 
 .content p{
   padding: 0 6px;
+  font-size: 15px;
 }
 .content hr{
   text-align: center;
@@ -266,5 +275,8 @@ blockquote .svg-inline--fa{
 
   #avatar{
     width: 10vh !important;
+  }
+  .cardheight{
+    height: 40vh !important;
   }
 }
