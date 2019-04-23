@@ -167,7 +167,7 @@ a:hover{
 /* tests */
 .grid{
   width:80%;
-  height:400px;
+  height:450px;
   margin-top: 8%;
   background-color:#3f3069;
   padding:50px 50px 50px 50px;
@@ -294,6 +294,10 @@ h2{
     margin-top: 6px;
   }
 
+  .grid{
+    height: 500px;
+  }
+
   .card{
      margin: 20px 6px !important;
   }
@@ -335,3 +339,8 @@ h2{
     height: 1rem;
     margin: 17rem !important;
   }
+
+
+.buttons label{
+  display: inline !important;
+}

@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["How does a semiconductor behave at absolute zero?","Total electrical conductivity in a semiconductor(σ) is given by","formula for bandgap is E=2K*slope*10^x,where x is","What are the charge carriers in semiconductors?","Which of the following is known as indirect band gap semiconductors?"],
-    opt1 : ["Conductor","e(μe*ne+μh*nh)","1","Electrons and holes","Germanium"],
-    opt2 : ["Insulator","e(μe*ne-μh*nh)","2","Electrons","Nickel"],
-    opt3 : ["Semiconductor","μe*ne+μh*nh","3","Holes","Platinum"],
-    opt4 : ["Protection device","μe*ne-μh*nh","4","Charges","Carbon"],
-    answer : ["Insulator","e(μe*ne+μh*nh)","3","Electrons and holes","Germanium"]
+    questions : ["What is the formula for wavelength of Spectral lines?","What is the formula of Grating Element?","Which gas is used to produce initial discharge in mercury lamp","What are the essential parts of spectrometer","Which Eye piece can be used in the telescope of spectrometer"],
+    opt1 : ["(a+b)sinθ*n","(a+b)","Neon","collimeter","Ramdsens"],
+    opt2 : ["(a+bn)sinθ","(a-b)","Argon","prismtable","Gauss"],
+    opt3 : ["(a+b)sinθ/n","(a*b)","Hydrogen","Telescope","Both"],
+    opt4 : ["(an+b)sinθ","(a/b)","Chlorine","All of the above.","None"],
+    answer : ["(a+b)sinθ/n","(a+b)","Argon","All of the above.","Both"]
 };
 
 var i = 0;

@@ -23,6 +23,12 @@ document.getElementById("op4").innerHTML = quiz.opt4[i];
 
 function changeContent(){
   if(i>=4){
+    document.getElementById("score").innerHTML = score;
+    document.getElementById("question").innerHTML = quiz.questions[i];
+    document.getElementById("op1").innerHTML = quiz.opt1[i];
+    document.getElementById("op2").innerHTML = quiz.opt2[i];
+    document.getElementById("op3").innerHTML = quiz.opt3[i];
+    document.getElementById("op4").innerHTML = quiz.opt4[i];
     document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
