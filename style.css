@@ -183,17 +183,19 @@ a:hover{
 
 /*footer*/
 
+
 footer{
   background-color: #40474e;
   color: white;
-  padding: 2rem 0 2rem;
+  padding: 4rem;
   margin-top: 2rem;
+text-align: center;
   background-image: url("images/footer.jpg");
   background-blend-mode: multiply;
   background-size: cover;
 }
 footer img{
-  height: 7rem;
+  height: 10rem;
   margin: 1.5rem 0rem;
 }
 footer a{
@@ -226,16 +228,25 @@ hr.socket {
   position: relative;
 }
 .offset::before{
-  display: block;
+  display: inline-block;
   content: "";
-  height: 4rem;
-  margin-top: 20rem;
+  height: 1rem;
+  margin: 5rem;
+}
+.footerone::before{
+ display: inline-block;
+ content: "";
+ height: 1rem;
+ margin: 15rem !important;
 }
 blockquote .svg-inline--fa{
   color: #1EBBA3;
   margin: 1rem;
 }
 
+h2{
+  font-size: 4rem;
+}
 /* Team-page*/
 .overlaybottom{
   display: flex;
@@ -245,6 +256,8 @@ blockquote .svg-inline--fa{
   font-size: 20px;
 }
 /*footer*/
+
+
 
 @media only screen and (max-width: 500px) {
   .navbar img{
@@ -274,9 +287,22 @@ blockquote .svg-inline--fa{
   }
 
   #avatar{
-    width: 10vh !important;
-  }
-  .cardheight{
+    width: 10vh !important;}
+}
+
+ .cardheight{
     height: 40vh !important;
   }
-}
+  .offset::before{
+    display: inline-block;
+    content: "";
+    height: 1rem;
+    margin: 3rem;
+
+  }
+   .footerone::before{
+    display: inline-block;
+    content: "";
+    height: 1rem;
+    margin: 17rem !important;
+  }
