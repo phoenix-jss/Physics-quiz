@@ -186,14 +186,15 @@ a:hover{
 footer{
   background-color: #40474e;
   color: white;
-  padding: 2rem 0 2rem;
-  margin-top: 2rem;
+  padding: 4rem;
+margin-top: 2rem;
+text-align: center;
   background-image: url("images/footer.jpg");
   background-blend-mode: multiply;
   background-size: cover;
 }
 footer img{
-  height: 7rem;
+  height: 10rem;
   margin: 1.5rem 0rem;
 }
 footer a{
@@ -235,6 +236,21 @@ blockquote .svg-inline--fa{
   color: #1EBBA3;
   margin: 1rem;
 }
+.offset::before{
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  margin: 5rem;
+}
+.footerone::before{
+ display: inline-block;
+ content: "";
+ height: 1rem;
+ margin: 15rem !important;
+}
+h2{
+  font-size: 4rem;
+}
 
 /* Team-page*/
 .overlaybottom{
@@ -271,6 +287,19 @@ blockquote .svg-inline--fa{
 
   .nav-link ,.navbar-brand{
     font-size: 1rem
+  }
+  .offset::before{
+    display: inline-block;
+    content: "";
+    height: 1rem;
+    margin: 3rem;
+
+  }
+   .footerone::before{
+    display: inline-block;
+    content: "";
+    height: 1rem;
+    margin: 17rem !important;
   }
 
   #avatar{
