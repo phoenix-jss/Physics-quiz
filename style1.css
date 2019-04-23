@@ -62,6 +62,7 @@ li,ul
 {
   position:relative;
   padding:0 0 0 15px;
+
   }
   .contact-page-section .form-column .inner-column
   {
@@ -152,6 +153,7 @@ li,ul
                               font-size:16px;
                               font-weight:700;
                               margin-top:10px;
+
                               text-transform:capitalize;
                               padding:16px 39px;
                               border:2px solid #17A589;
@@ -185,4 +187,80 @@ li,ul
                                     font-weight:500;
                                     }
 
-                                    
+                                    @media only screen and (max-width: 600px) {
+                                      .contact-page-section
+                                      {
+                                        position:relative;
+                                        padding-top:110px;
+                                         padding-bottom: 110px;
+                                         padding-left: 10px;
+                                         padding-right: 25px;
+                                         }
+                                         .contact-page-section .inner-container
+                                         {
+                                           position:relative;
+                                           z-index:1;
+                                           background-color:#17A589;
+                                           box-shadow:0 0 15px 5px rgba(0,0,0,.1)
+                                           }
+
+
+                                           .contact-page-section .form-column
+                                  {
+                                  position:relative;
+                                  padding:0 0 0 15px;
+                                  }
+                                  .contact-page-section .form-column .inner-column
+                                  {
+                                  position:relative;
+                                  padding:60px 45px 30px;
+                                  background-color:#fff;
+                                  }
+                                  .contact-page-section .info-column
+                                  {
+                                    position:relative;
+                                    width:600px;
+                                    }
+                                    .contact-page-section .info-column .inner-column
+                                    {
+                                      position:relative;
+                                      padding-right:30px;
+
+                                      }
+                                      .contact-page-section .info-column h2
+                                      {
+                                        position:relative;
+                                        color:#fff;
+                                        font-size:30px;
+                                        font-weight:700;
+                                        line-height:1.4em;
+                                        margin-bottom:45px;
+                                        }
+                                        .contact-page-section .info-column .list-info
+                                        {
+                                          position:relative;
+                                          margin-bottom:60px;
+                                          }
+                                          .contact-page-section .info-column .list-info li
+                                          {
+                                            position:relative;
+                                            margin-bottom:25px;
+                                            font-size:18px;
+                                            color:#fff;
+                                            line-height:1.8em;
+                                            padding-left:45px;
+                                            }
+                                            .contact-page-section .info-column .list-info li:last-child
+                                            {
+                                              margin-bottom:0;
+                                              }
+                                              .contact-page-section .info-column .list-info li i
+                                              {
+                                                position:absolute;
+                                                left:0;
+                                                top:8px;
+                                                color:#fff;
+                                                font-size:30px;
+                                                }
+
+}
