@@ -188,7 +188,8 @@ footer{
   background-color: #40474e;
   color: white;
   padding: 4rem;
-  margin-top: 2rem;
+
+margin-top: 2rem;
 text-align: center;
   background-image: url("images/footer.jpg");
   background-blend-mode: multiply;
@@ -243,6 +244,21 @@ blockquote .svg-inline--fa{
   color: #1EBBA3;
   margin: 1rem;
 }
+.offset::before{
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  margin: 5rem;
+}
+.footerone::before{
+ display: inline-block;
+ content: "";
+ height: 1rem;
+ margin: 15rem !important;
+}
+h2{
+  font-size: 4rem;
+}
 
 h2{
   font-size: 4rem;
@@ -284,6 +300,19 @@ h2{
 
   .nav-link ,.navbar-brand{
     font-size: 1rem
+  }
+  .offset::before{
+    display: inline-block;
+    content: "";
+    height: 1rem;
+    margin: 3rem;
+
+  }
+   .footerone::before{
+    display: inline-block;
+    content: "";
+    height: 1rem;
+    margin: 17rem !important;
   }
 
   #avatar{
