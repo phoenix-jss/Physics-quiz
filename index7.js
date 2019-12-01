@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["Mathematically Numerical Aperture is define as:","What can cause an error in this experiment?","What is the principle of working of an Optical Fibre?","On what factors the Numerical Aperture depends?","With what angle a ray should enter an Optical Fibre for propagation?"],
-    opt1 : ["N.A. =  W/√(4L2+W2)","Intensity of LASER.","Refraction of light.","Wavelength of Light.","θ = sin-1μ"],
-    opt2 : ["N.A. = L/√(4L2-W2)","Bend in Optical Fibre.","Refraction of light.","Refractive index.","θ<=∝"],
-    opt3 : [" N.A. = W/√(4L2-W2)","Length of Optical Fibre.","TIR.","Length of the Optical Fibre.","θ>∝"],
-    opt4 : [" N.A. = L/√(4L2+W2) ","None of the Above.","None of the Above.","None of the above.","None of the Above."],
-    answer : ["N.A. =  W/√(4L2+W2)","Bend in Optical Fibre.","TIR.","Refractive index.","θ<=∝"]
+    questions : ["Formula of magnetic field intensity is F=2(3.14)nI/(r.10^x), where ‘x’ is","According to tangent law the magnetic field intensity(F) is","The value of current should be adjusted such that deflection in galvanometer lies between","What is the magnetic field outside a solenoid?","Which, among the following qualities, is not affected by the magnetic field?"],
+    opt1 : ["5","H tanθ","65-70","Infinity","Moving charge"],
+    opt2 : ["6","H/tanθ","70-75","Half the value of the field inside","Change in magnetic flux"],
+    opt3 : ["7","H cotθ","80-85","Double the value of the field inside","Current flowing in a conductor"],
+    opt4 : ["8","H/cotθ","90-95","Zero","Stationary charge"],
+    answer : ["7","H tanθ","70-75","Zero","Stationary charge"]
 };
 
 var i = 0;
@@ -14,7 +14,6 @@ var score = 0;
 var ans;
 
 var options = document.forms[0];
-
 document.getElementById("score").innerHTML = 0;
 document.getElementById("question").innerHTML = quiz.questions[i];
 document.getElementById("op1").innerHTML = quiz.opt1[i];
@@ -23,14 +22,14 @@ document.getElementById("op3").innerHTML = quiz.opt3[i];
 document.getElementById("op4").innerHTML = quiz.opt4[i];
 
 function changeContent(){
-  if(i==4){
+  if(i>=4){
     document.getElementById("score").innerHTML = score;
     document.getElementById("question").innerHTML = quiz.questions[i];
     document.getElementById("op1").innerHTML = quiz.opt1[i];
     document.getElementById("op2").innerHTML = quiz.opt2[i];
     document.getElementById("op3").innerHTML = quiz.opt3[i];
     document.getElementById("op4").innerHTML = quiz.opt4[i];
-    document.getElementById("next").innerHTML = "<a href='/results.html' style='color:black;'>Submit Quiz</a>";
+    document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
     document.getElementById("score").innerHTML = score;
