@@ -31,7 +31,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="dashboard.html">QUIZ</a>
-              </li
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="index.html">CONTACT</a>
               </li>
@@ -70,6 +70,7 @@
 
 
 <!--footer-->
+  <script type="text/javascript" src="quotes.js" charset="utf-8"></script>
   <div id="contact" class="offset footerone">
   <footer>
   <div class="row justify-content-center">
@@ -78,11 +79,16 @@
   </div>
     <div class="col-md-8 text-center">
 					<blockquote>
-						<i class="fas fa-quote-left text-center"></i>
-          When we measure something we are forcing an undetermined, undefined world to assume an experimental value. We are not measuring the world, we are creating it.
-<i class="fas fa-quote-right"></i><br>
-<cite>&#8212;Niels Bohr</cite>
-					</blockquote>
+            <i class="fas fa-quote-left text-center" id="quoteText"></i>
+            <p id="quote-text"></p>
+            <i class="fas fa-quote-right"></i><br>
+            <cite id="quote-author">&#8212;</cite>
+          </blockquote>
+          <script>
+            let quote = printQuoteAndAuthor();
+            document.getElementById("quote-text").innerHTML = quote[0];
+            document.getElementById("quote-author").innerHTML = quote[1];
+          </script>
 				</div>
   	<div class="col-md-4 text-center">
   <strong>Contact Info</strong>
