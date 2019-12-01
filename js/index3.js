@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["Which type of lens is used in newton's ring experiment?","Centre of the rings is?","At what angle the glass plate is employed?","What is the Standard value of the wavelength of sodium light?","What happens when a dust particle comes between the two surfaces at the point of contact?"],
-    opt1 : ["Concave lens of large focal length","Bright","60°","5898 A°","Centre becomes bright"],
-    opt2 : ["Plano concave lens of large focal length","Half moon","45°","5890 A°","Centre becomes dark"],
-    opt3 : ["Plano convex lens of large focal length","Dark","75°","5873 A°","Diameter of Centre increases"],
-    opt4 : ["Plano convex lens of small focal length","Can't predict","90°","5893 A°","Diameter of centre decreases"],
-    answer : ["Plano convex lens of large focal length","Dark","45°","5893 A°","Centre becomes bright"]
+    questions : ["Which one of the following is the mathematical adaptation of Stefan’s Law?","Which form does the equation of the slope of Stefan’s Law have?","In this experiment,The graph of Stefan’s Law is plotted between :"," In this experiment, R0= ?","What could lead to an error in this experiment?"],
+    opt1 : ["E=σ(T-T0)","y=mx+c","Log10P on X-axis & Log10T on Y-axis","Rg/3","High Current"],
+    opt2 : ["E=σ(T2-T02)","y=4ax2","P on X-axis & T on Y-axis"," Rg","Steady Current"],
+    opt3 : ["E=σ(T3-T03)"," xy=1","Log10P on Y-axis & Log10T on X-axis","Rg/3.9","External Pressure"],
+    opt4 : ["E=σ(T4-T04)","  x2+y2=1","P on Y-axis & T on X-axis"," Rg/2","External Temperature"],
+    answer : ["E=σ(T4-T04)","y=mx+c","Log10P on Y-axis & Log10T on X-axis","Rg/3.9"," High Current"]
 };
 
 var i = 0;
@@ -30,7 +30,7 @@ function changeContent(){
     document.getElementById("op2").innerHTML = quiz.opt2[i];
     document.getElementById("op3").innerHTML = quiz.opt3[i];
     document.getElementById("op4").innerHTML = quiz.opt4[i];
-    document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
+    document.getElementById("next").innerHTML = "<a href='/results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
     document.getElementById("score").innerHTML = score;
