@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["What does a polarimeter measure?","Polarimeter works on the principle of which of the following?","What is the effect of the I on the specific optical rotation (α), if I gets double?","Which of these is a comparatively insignificant factor affecting the magnitude of specific optical rotation?","What can be said with certainty if a compound has α= -9.25°?"],
-    opt1 : ["Polarity of the substance","polarisation of light","α gets double","Concentration of the substance of interest","The compound has the (S) configuration"],
-    opt2 : ["Angle of rotation of an optical active compound","change of the electrical conductivity of solution with composition","α gets halved","Purity of the sample","The compound has the (R) configuration"],
-    opt3 : ["Concentration of the substance","change of angle of refraction with composition","α gets four times","Temperature of the measurement","The compound is not a meso form"],
-    opt4 : ["pH of the substance","change of electrical conductivity of solution with temperature","α eight times","Length of the sample tube","The compound possesses only one stereogenic center"],
-    answer : ["Angle of rotation of an optical active compound","polarisation of light","α gets double","Temperature of the measurement","The compound is not a meso form"]
+    questions : ["How does a semiconductor behave at absolute zero?","Total electrical conductivity in a semiconductor(σ) is given by","formula for bandgap is E=2K*slope*10^x,where x is","What are the charge carriers in semiconductors?","Which of the following is known as indirect band gap semiconductors?"],
+    opt1 : ["Conductor","e(μe*ne+μh*nh)","1","Electrons and holes","Germanium"],
+    opt2 : ["Insulator","e(μe*ne-μh*nh)","2","Electrons","Nickel"],
+    opt3 : ["Semiconductor","μe*ne+μh*nh","3","Holes","Platinum"],
+    opt4 : ["Protection device","μe*ne-μh*nh","4","Charges","Carbon"],
+    answer : ["Insulator","e(μe*ne+μh*nh)","3","Electrons and holes","Germanium"]
 };
 
 var i = 0;
@@ -14,6 +14,7 @@ var score = 0;
 var ans;
 
 var options = document.forms[0];
+
 document.getElementById("score").innerHTML = 0;
 document.getElementById("question").innerHTML = quiz.questions[i];
 document.getElementById("op1").innerHTML = quiz.opt1[i];
@@ -29,7 +30,7 @@ function changeContent(){
     document.getElementById("op2").innerHTML = quiz.opt2[i];
     document.getElementById("op3").innerHTML = quiz.opt3[i];
     document.getElementById("op4").innerHTML = quiz.opt4[i];
-    document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
+    document.getElementById("next").innerHTML = "<a href='/results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
     document.getElementById("score").innerHTML = score;
