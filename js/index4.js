@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["How does a semiconductor behave at absolute zero?","Total electrical conductivity in a semiconductor(σ) is given by","formula for bandgap is E=2K*slope*10^x,where x is","What are the charge carriers in semiconductors?","Which of the following is known as indirect band gap semiconductors?"],
-    opt1 : ["Conductor","e(μe*ne+μh*nh)","1","Electrons and holes","Germanium"],
-    opt2 : ["Insulator","e(μe*ne-μh*nh)","2","Electrons","Nickel"],
-    opt3 : ["Semiconductor","μe*ne+μh*nh","3","Holes","Platinum"],
-    opt4 : ["Protection device","μe*ne-μh*nh","4","Charges","Carbon"],
-    answer : ["Insulator","e(μe*ne+μh*nh)","3","Electrons and holes","Germanium"]
+    questions : ["Which solution is used in copper voltameter?","Which acid is used to increase the conductivity of copper sulphate solution?","What deflection do we make in TG?","Reduction factor is given by","Give expression of tangent law."],
+    opt1 : ["Copper(ll) chloride","Sulphuric acid","60°","K= rH/μn","F= tanθ/H"],
+    opt2 : ["Copper sulphate","Hydrochloric acid","30°","K= μr/2n","F= tan(θ+H)"],
+    opt3 : ["Cupric hydroxide","Nitric acid","45°","K= H/rn","F= H tanθ"],
+    opt4 : ["Cupric oxide","Chloric acid","90°","K= 2rH/ μn","F= H/tanθ"],
+    answer : ["Copper sulphate","Copper sulphate","45°","K= 2rH/ μn","F= H tanθ"]
 };
 
 var i = 0;
@@ -23,14 +23,14 @@ document.getElementById("op3").innerHTML = quiz.opt3[i];
 document.getElementById("op4").innerHTML = quiz.opt4[i];
 
 function changeContent(){
-  if(i==4){
+  if(i>=4){
     document.getElementById("score").innerHTML = score;
     document.getElementById("question").innerHTML = quiz.questions[i];
     document.getElementById("op1").innerHTML = quiz.opt1[i];
     document.getElementById("op2").innerHTML = quiz.opt2[i];
     document.getElementById("op3").innerHTML = quiz.opt3[i];
     document.getElementById("op4").innerHTML = quiz.opt4[i];
-    document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
+    document.getElementById("next").innerHTML = "<a href='/results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
     document.getElementById("score").innerHTML = score;
