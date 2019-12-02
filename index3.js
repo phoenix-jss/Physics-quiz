@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["What does a polarimeter measure?","Polarimeter works on the principle of which of the following?","What is the effect of the I on the specific optical rotation (α), if I gets double?","Which of these is a comparatively insignificant factor affecting the magnitude of specific optical rotation?","What can be said with certainty if a compound has α= -9.25°?"],
-    opt1 : ["Polarity of the substance","polarisation of light","α gets double","Concentration of the substance of interest","The compound has the (S) configuration"],
-    opt2 : ["Angle of rotation of an optical active compound","change of the electrical conductivity of solution with composition","α gets halved","Purity of the sample","The compound has the (R) configuration"],
-    opt3 : ["Concentration of the substance","change of angle of refraction with composition","α gets four times","Temperature of the measurement","The compound is not a meso form"],
-    opt4 : ["pH of the substance","change of electrical conductivity of solution with temperature","α eight times","Length of the sample tube","The compound possesses only one stereogenic center"],
-    answer : ["Angle of rotation of an optical active compound","polarisation of light","α gets double","Temperature of the measurement","The compound is not a meso form"]
+    questions : ["Which one of the following is the mathematical adaptation of Stefan’s Law?","Which form does the equation of the slope of Stefan’s Law have?","In this experiment,The graph of Stefan’s Law is plotted between :"," In this experiment, R0= ?","What could lead to an error in this experiment?"],
+    opt1 : ["E=σ(T-T0)","y=mx+c","Log10P on X-axis & Log10T on Y-axis","Rg/3","High Current"],
+    opt2 : ["E=σ(T2-T02)","y=4ax2","P on X-axis & T on Y-axis"," Rg","Steady Current"],
+    opt3 : ["E=σ(T3-T03)"," xy=1","Log10P on Y-axis & Log10T on X-axis","Rg/3.9","External Pressure"],
+    opt4 : ["E=σ(T4-T04)","  x2+y2=1","P on Y-axis & T on X-axis"," Rg/2","External Temperature"],
+    answer : ["E=σ(T4-T04)","y=mx+c","Log10P on Y-axis & Log10T on X-axis","Rg/3.9"," High Current"]
 };
 
 var i = 0;
@@ -14,6 +14,7 @@ var score = 0;
 var ans;
 
 var options = document.forms[0];
+
 document.getElementById("score").innerHTML = 0;
 document.getElementById("question").innerHTML = quiz.questions[i];
 document.getElementById("op1").innerHTML = quiz.opt1[i];
@@ -22,14 +23,14 @@ document.getElementById("op3").innerHTML = quiz.opt3[i];
 document.getElementById("op4").innerHTML = quiz.opt4[i];
 
 function changeContent(){
-  if(i==4){
+  if(i>=4){
     document.getElementById("score").innerHTML = score;
     document.getElementById("question").innerHTML = quiz.questions[i];
     document.getElementById("op1").innerHTML = quiz.opt1[i];
     document.getElementById("op2").innerHTML = quiz.opt2[i];
     document.getElementById("op3").innerHTML = quiz.opt3[i];
     document.getElementById("op4").innerHTML = quiz.opt4[i];
-    document.getElementById("next").innerHTML = "<a href='/results.html' style='color:black;'>Submit Quiz</a>";
+    document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
     document.getElementById("score").innerHTML = score;

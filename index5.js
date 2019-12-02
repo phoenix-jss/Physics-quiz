@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["Formula of focal length of the combination of two lenses is :","Name the points which gives unit angular magnification :","Name the points which gives unit linear magnification :","How many Cardinal Points are there in optical systems?","What is the formula for lateral magnification?"],
-    opt1 : ["(1/f1+1/f2-x/f1f2)","principal points","principal points","2","(length of image/length of object)"],
-    opt2 : ["(1/f1+1/f2+x/f1f2)","nodal points","nodal points","4","(length of object/length of image)"],
-    opt3 : ["(1/f1-1/f2-x/f1f2)","focal points","focal points","6","(distance of image from focus/distance of object from focus)"],
-    opt4 : ["(1/f1-1/f2-x/f1f2)","points at infinity","points at infinity","8","(distance of object from focus/distance of image from focus)"],
-    answer : ["(1/f1+1/f2-x/f1f2)","nodal points","principal points","6","(length of image/length of object)"]
+    questions : ["Mathematically Numerical Aperture is define as:","What can cause an error in this experiment?","What is the principle of working of an Optical Fibre?","On what factors the Numerical Aperture depends?","With what angle a ray should enter an Optical Fibre for propagation?"],
+    opt1 : ["N.A. =  W/√(4L2+W2)","Intensity of LASER.","Refraction of light.","Wavelength of Light.","θ = sin-1μ"],
+    opt2 : ["N.A. = L/√(4L2-W2)","Bend in Optical Fibre.","Refraction of light.","Refractive index.","θ<=∝"],
+    opt3 : [" N.A. = W/√(4L2-W2)","Length of Optical Fibre.","TIR.","Length of the Optical Fibre.","θ>∝"],
+    opt4 : [" N.A. = L/√(4L2+W2) ","None of the Above.","None of the Above.","None of the above.","None of the Above."],
+    answer : ["N.A. =  W/√(4L2+W2)","Bend in Optical Fibre.","TIR.","Refractive index.","θ<=∝"]
 };
 
 var i = 0;
@@ -14,6 +14,7 @@ var score = 0;
 var ans;
 
 var options = document.forms[0];
+
 document.getElementById("score").innerHTML = 0;
 document.getElementById("question").innerHTML = quiz.questions[i];
 document.getElementById("op1").innerHTML = quiz.opt1[i];
@@ -22,14 +23,14 @@ document.getElementById("op3").innerHTML = quiz.opt3[i];
 document.getElementById("op4").innerHTML = quiz.opt4[i];
 
 function changeContent(){
-  if(i>=4){
+  if(i==4){
     document.getElementById("score").innerHTML = score;
     document.getElementById("question").innerHTML = quiz.questions[i];
     document.getElementById("op1").innerHTML = quiz.opt1[i];
     document.getElementById("op2").innerHTML = quiz.opt2[i];
     document.getElementById("op3").innerHTML = quiz.opt3[i];
     document.getElementById("op4").innerHTML = quiz.opt4[i];
-    document.getElementById("next").innerHTML = "<a href='/results.html' style='color:black;'>Submit Quiz</a>";
+    document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
     document.getElementById("score").innerHTML = score;

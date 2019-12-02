@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["What is the formula for wavelength of Spectral lines?","What is the formula of Grating Element?","Which gas is used to produce initial discharge in mercury lamp","What are the essential parts of spectrometer","Which Eye piece can be used in the telescope of spectrometer"],
-    opt1 : ["(a+b)sinθ*n","(a+b)","Neon","collimeter","Ramdsens"],
-    opt2 : ["(a+bn)sinθ","(a-b)","Argon","prismtable","Gauss"],
-    opt3 : ["(a+b)sinθ/n","(a*b)","Hydrogen","Telescope","Both"],
-    opt4 : ["(an+b)sinθ","(a/b)","Chlorine","All of the above.","None"],
-    answer : ["(a+b)sinθ/n","(a+b)","Argon","All of the above.","Both"]
+    questions : ["On which principle it is based on?","On which of the following factors does specific resistance depends upon?","What is the unit of specific resistance?","What is the least count for screw gauge?","What is the correct expression for percentage error?"],
+    opt1 : ["refraction","length","ohm","0.001mm","(Standard Value - Observed Value)/ Standard Value X100"],
+    opt2 : ["reflection","temp","mho","0.01mm","Standard Value/Observed Value"],
+    opt3 : ["KVL","nature of material","henry","0.0001mm","Observed Value/Standard Value X100"],
+    opt4 : ["Wheat stone bridge","all of the above","ohm-m","0mm","None ot these"],
+    answer : ["Wheat stone bridge","temp","ohm-m","0.01mm","(Standard Value - Observed Value)/ Standard Value X100"]
 };
 
 var i = 0;
@@ -23,14 +23,14 @@ document.getElementById("op3").innerHTML = quiz.opt3[i];
 document.getElementById("op4").innerHTML = quiz.opt4[i];
 
 function changeContent(){
-  if(i==4){
+  if(i>=4){
     document.getElementById("score").innerHTML = score;
     document.getElementById("question").innerHTML = quiz.questions[i];
     document.getElementById("op1").innerHTML = quiz.opt1[i];
     document.getElementById("op2").innerHTML = quiz.opt2[i];
     document.getElementById("op3").innerHTML = quiz.opt3[i];
     document.getElementById("op4").innerHTML = quiz.opt4[i];
-    document.getElementById("next").innerHTML = "<a href='/results.html' style='color:black;'>Submit Quiz</a>";
+    document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
     document.getElementById("score").innerHTML = score;

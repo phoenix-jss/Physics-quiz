@@ -1,10 +1,10 @@
 var quiz = {
-    questions : ["Which type of lens is used in newton's ring experiment?","Centre of the rings is?","At what angle the glass plate is employed?","What is the Standard value of the wavelength of sodium light?","What happens when a dust particle comes between the two surfaces at the point of contact?"],
-    opt1 : ["Concave lens of large focal length","Bright","60°","5898 A°","Centre becomes bright"],
-    opt2 : ["Plano concave lens of large focal length","Half moon","45°","5890 A°","Centre becomes dark"],
-    opt3 : ["Plano convex lens of large focal length","Dark","75°","5873 A°","Diameter of Centre increases"],
-    opt4 : ["Plano convex lens of small focal length","Can't predict","90°","5893 A°","Diameter of centre decreases"],
-    answer : ["Plano convex lens of large focal length","Dark","45°","5893 A°","Centre becomes bright"]
+    questions : ["Which solution is used in copper voltameter?","Which acid is used to increase the conductivity of copper sulphate solution?","What deflection do we make in TG?","Reduction factor is given by","Give expression of tangent law."],
+    opt1 : ["Copper(ll) chloride","Sulphuric acid","60°","K= rH/μn","F= tanθ/H"],
+    opt2 : ["Copper sulphate","Hydrochloric acid","30°","K= μr/2n","F= tan(θ+H)"],
+    opt3 : ["Cupric hydroxide","Nitric acid","45°","K= H/rn","F= H tanθ"],
+    opt4 : ["Cupric oxide","Chloric acid","90°","K= 2rH/ μn","F= H/tanθ"],
+    answer : ["Copper sulphate","Copper sulphate","45°","K= 2rH/ μn","F= H tanθ"]
 };
 
 var i = 0;
@@ -30,7 +30,7 @@ function changeContent(){
     document.getElementById("op2").innerHTML = quiz.opt2[i];
     document.getElementById("op3").innerHTML = quiz.opt3[i];
     document.getElementById("op4").innerHTML = quiz.opt4[i];
-    document.getElementById("next").innerHTML = "<a href='/results.html' style='color:black;'>Submit Quiz</a>";
+    document.getElementById("next").innerHTML = "<a href='results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
     document.getElementById("score").innerHTML = score;
