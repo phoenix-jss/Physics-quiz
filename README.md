@@ -7,7 +7,7 @@
 
 # Physics-quiz
 
-Physics-quiz is a mini-project that can use for brush upon the fundamental oberservation and knowledge of some important physics experiments perfomed by famous scients.
+Physics-quiz is a mini-project that can use for brush upon the fundamental oberservation and knowledge of some important physics experiments perfomed by famous scientists.
 Here we have 10 tests on the topics
 
 - To determine the specific resistance of a given wire by Carey Foster’s Bridge
