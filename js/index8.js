@@ -29,7 +29,7 @@ function changeContent(){
     document.getElementById("op2").innerHTML = quiz.opt2[i];
     document.getElementById("op3").innerHTML = quiz.opt3[i];
     document.getElementById("op4").innerHTML = quiz.opt4[i];
-    document.getElementById("next").innerHTML = "<a href='/results.html' style='color:black;'>Submit Quiz</a>";
+    document.getElementById("next").innerHTML = "<a href='../results.html' style='color:black;'>Submit Quiz</a>";
   }
   else{
     document.getElementById("score").innerHTML = score;
