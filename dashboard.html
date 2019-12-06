@@ -55,7 +55,7 @@
             <div class="overlaybottom">
               <div class="content">
                 <br>
-                <a href="test1.html"><h3>TEST 1</h3></a>
+                <a href="html/test1.html"><h3>TEST 1</h3></a>
                 <hr>
                 <p>AIM: To determine the specific resistance of a given wire by Carey Foster’s Bridge</p>
                 <br>
@@ -68,7 +68,7 @@
             <div class="overlaybottom">
               <div class="content">
                 <br>
-                <a href="test2.html"><h3>TEST 2</h3></a>
+                <a href="html/test2.html"><h3>TEST 2</h3></a>
                 <hr>
                 <p>AIM: To determine the wavelength of monochromatic sodium light by using Newton's rings.</p>
                 <br>
@@ -81,7 +81,7 @@
             <div class="overlaybottom">
               <div class="content">
                 <br>
-                <a href="test3.html"><h3>TEST 3</h3></a>
+                <a href="html/test3.html"><h3>TEST 3</h3></a>
                 <hr>
                 <p>AIM: To verify Stefan’s Law by electrical method</p>
                 <br>
@@ -94,7 +94,7 @@
             <div class="overlaybottom">
               <div class="content">
                 <br>
-                <a href="test4.html"><h3>TEST 4</h3></a>
+                <a href="html/test4.html"><h3>TEST 4</h3></a>
                 <hr>
                 <p>AIM: To determine the electrochemical equivalent of copper using a Tangent galvanometer (TG)</p>
                 <br>
@@ -107,7 +107,7 @@
             <div class="overlaybottom">
               <div class="content">
                 <br>
-                <a href="test5.html"><h3>TEST 5</h3></a>
+                <a href="html/test5.html"><h3>TEST 5</h3></a>
                 <hr>
 
                 <p>AIM: Measurement of Numerical Aperture (N.A.) of Optical Fibre</p>
@@ -124,7 +124,7 @@
               <div class="overlaybottom">
                 <div class="content">
                   <br>
-                  <a href="test6.html"><h3>TEST 6</h3></a>
+                  <a href="html/test6.html"><h3>TEST 6</h3></a>
                   <hr>
                   <p>AIM: To determine the energy band gap of a given semiconductor material.</p>
                   <br>
@@ -137,7 +137,7 @@
               <div class="overlaybottom">
                 <div class="content">
                   <br>
-                  <a href="test7.html"><h3>TEST 7</h3></a>
+                  <a href="html/test7.html"><h3>TEST 7</h3></a>
                   <hr>
                   <p>AIM: To study the variation of magnetic field with distance along the axis of current carrying coil and then to estimate the radius of the coil.</p>
                   <br>
@@ -150,7 +150,7 @@
               <div class="overlaybottom">
                 <div class="content">
                   <br>
-                  <a href="test8.html"><h3>TEST 8</h3></a>
+                  <a href="html/test8.html"><h3>TEST 8</h3></a>
                   <hr>
                   <p>AIM: To determine the specific rotation of an optical active solution by polarimeter.</p>
                   <br>
@@ -163,7 +163,7 @@
               <div class="overlaybottom">
                 <div class="content">
                   <br>
-                  <a href="test9.html"><h3>TEST 9</h3></a>
+                  <a href="html/test9.html"><h3>TEST 9</h3></a>
                   <hr>
                   <p>AIM: To determine the focal length of the combination of two lenses by nodal slide and locate the position of cardinal points.</p>
                   <br>
@@ -176,7 +176,7 @@
               <div class="overlaybottom">
                 <div class="content">
                   <br>
-                  <a href="test10.html"><h3>TEST 10</h3></a>
+                  <a href="html/test10.html"><h3>TEST 10</h3></a>
                   <hr>
                   <p>AIM: To determine the wavelength of spectral lines using plane transmission grating</p>
                   <br>
@@ -203,28 +203,34 @@
 
 
   <!--footer-->
-    <div id="contact" class="offset">
-    <footer>
-    <div class="row justify-content-center">
-    <div class="col-md-12 text-center">
-    	<img src="images/logo ppv2.png"></img>
-    </div>
-      <div class="col-md-8 text-center">
-  					<blockquote>
-  						<i class="fas fa-quote-left text-center"></i>
-            When we measure something we are forcing an undetermined, undefined world to assume an experimental value. We are not measuring the world, we are creating it.
-  <i class="fas fa-quote-right"></i><br>
-  <cite>&#8212;Niels Bohr</cite>
-  					</blockquote>
-  				</div>
-    	<div class="col-md-4 text-center">
-    <strong>Contact Info</strong>
-    <p>+91 6388801259<br> +91 9721053937 <br> itispragativerma@gmail.com</p>
-    <a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
-    <a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
-    <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+  <script type="text/javascript" src="quotes.js" charset="utf-8"></script>
+  <div id="contact" class="offset footerone">
+  <footer>
+  <div class="row justify-content-center">
+  <div class="col-md-12 text-center">
+  	<img src="images/logo ppv2.png"></img>
+  </div>
+    <div class="col-md-8 text-center">
+					<blockquote>
+            <i class="fas fa-quote-left text-center" id="quoteText"></i>
+            <p id="quote-text"></p>
+            <i class="fas fa-quote-right"></i><br>
+            <cite id="quote-author">&#8212;</cite>
+          </blockquote>
+          <script>
+            let quote = printQuoteAndAuthor();
+            document.getElementById("quote-text").innerHTML = quote[0];
+            document.getElementById("quote-author").innerHTML = quote[1];
+          </script>
+				</div>
+  	<div class="col-md-4 text-center">
+  <strong>Contact Info</strong>
+  <p>+91 6388801259<br> +91 9721053937 <br> itispragativerma@gmail.com</p>
+  <a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+  <a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
+  <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
 
-    </div>
+  </div>
 
     <hr class="socket">
     <p>&copy;2018-19 All Rights Reserved. Designed and Developed by TEAM PHOENIX</p>
