@@ -149,7 +149,11 @@ a:hover{
   top: 0;
   height: 100%;
 }
-
+.content 
+{
+  overflow-y:scroll;
+  scrollbar-color: auto;
+}
 .content h3{
   text-align: center;
 }
