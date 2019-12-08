@@ -7,13 +7,16 @@
     <title>Quiz-1</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
   </head>
   <body>
     <!--gaurav added images-->
     <nav>
       <div class="navbar">
-        <img src="../images/logo ppv2.png" alt="">
+        <img src="../images/logo ppv2.png" alt="Logo" class="logo1">
         <img src="../images/avatars 2.png" alt="" id="avatar">
         <div class="navitems">
          <nav class="navbar navbar-expand-lg " style="height:40px;margin-top:80px;">
@@ -45,34 +48,36 @@
     </nav>
   <!--Questions Start here-->
   <div class="row">
-      <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-      </div>
-      <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-
-        <div class="grid">
-
-            <div id="quiz">
-                <h3>Test 1</h3>
-                <span>Score: <span id="score"></span>  </span>
-                <hr>
-                <p id="question"></p>
-            <div class="buttons">
-                <form>
-                    <input class="opt" type="radio" name="option" value="" onclick="checkAnswer()"><label style="display:inline;"><span id="op1"></span></label><br>
-                    <input class="opt" type="radio" name="option" value="" onclick="checkAnswer()"><label style="display:inline;"><span id="op2"></span></label><br>
-                    <input class="opt" type="radio" name="option" value="" onclick="checkAnswer()"><label style="display:inline;"><span id="op3"></span></label><br>
-                    <input class="opt" type="radio" name="option" value="" onclick="checkAnswer()"><label style="display:inline;"><span id="op4"></span></label>
-                </form>
-            </div>
-            <br>
-            <!-- <button type="button" name="button" onclick="prev()" id="prev">Previous</button> -->
-            <button type="button" onclick="next()" id="next">Next</button>
-            </div>
-        </div>
-    </div>
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
     </div>
-    </div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+      <div class="grid">
+
+          <div id="quiz">
+              <h3 class="test_class">Test 1</h3>
+              <span class="poppins">Score: <span id="score" class="poppins"></span>  </span>
+              <hr>
+              <p id="question" class="poppins"></p>
+          <div class="buttons" >
+              <form>
+                  <label style="display:inline;" class="radio"><input class="opt" type="radio" name="option" value="" onclick="checkAnswer()"><span id="op1" class="poppins circle"></span></label><br>
+
+                  <label style="display:inline;" class="radio"><input class="opt" type="radio" name="option" value="" onclick="checkAnswer()"><span id="op2" class="poppins circle"></span></label><br>
+
+                  <label style="display:inline;" class="radio"><input class="opt" type="radio" name="option" value="" onclick="checkAnswer()"><span id="op3" class="poppins circle"></span></label><br>
+
+                  <label style="display:inline;" class="radio"><input class="opt" type="radio" name="option" value="" onclick="checkAnswer()"><span id="op4" class="poppins circle"></span></label>
+              </form>
+          </div>
+          <br>
+          <!-- <button type="button" name="button" onclick="prev()" id="prev">Previous</button> -->
+          <button type="button" onclick="next()" id="next" class="poppins next-btn"><span>Next</span></button>
+          </div>
+      </div>
+  </div>
+  <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+  </div>
+  </div>
   <script src="../js/index1.js" charset="utf-8"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
