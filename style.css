@@ -8,6 +8,14 @@ body{
   background-position: center;
   background-color: #37295a;
   overflow-x: hidden;
+    /* background: rgb(105,155,200);
+    background: -moz-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%, rgba(181,197,216,1) 57%);
+     background: -webkit-gradient(radial, top left, 0px, top left, 100%, color-stop(0%,rgba(105,155,200,1)), color-stop(57%,rgba(181,197,216,1)));
+     background: -webkit-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+     background: -o-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+     background: -ms-radial-gradient(top left, ellipse cover, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+     background: radial-gradient(ellipse at top left, rgba(105,155,200,1) 0%,rgba(181,197,216,1) 57%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#699bc8', endColorstr='#b5c5d8',GradientType=1 ); */
 }
 
 a{
@@ -45,7 +53,21 @@ a:hover{
 }
 
 .nav-link ,.navbar-brand{
-  font-size: 1.4rem
+  font-size: 1.4rem;
+  transition: all 1s cubic-bezier(.25,.8,.25,1);
+}
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: white;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 .fa.fa-navicon {
@@ -149,11 +171,7 @@ a:hover{
   top: 0;
   height: 100%;
 }
-.content 
-{
-  overflow-y:scroll;
-  scrollbar-color: auto;
-}
+
 .content h3{
   text-align: center;
 }
@@ -170,20 +188,22 @@ a:hover{
 
 /* tests */
 .grid{
-  width:80%;
-  height:450px;
+  width:50%;
+  height:380px;
   margin-top: 8%;
   background-color:#3f3069;
   padding:50px 50px 50px 50px;
   border-radius:50px;
   border:2px solid #333;
-  box-shadow: 4px 4px 4px #333;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
   padding-bottom:100px;
   margin-left: auto;
   margin-right: auto;
-
 }
-
+.grid:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
 
 /*footer*/
 
@@ -277,7 +297,11 @@ h2{
 }
 /*footer*/
 
-
+@media only screen and (min-width: 1600px){
+    .navbar .logo1{
+      height: 90%;
+    }
+}
 
 @media only screen and (max-width: 500px) {
   .navbar img{
@@ -309,6 +333,7 @@ h2{
   .nav-link ,.navbar-brand{
     font-size: 1rem
   }
+  
   .offset::before{
     display: inline-block;
     content: "";
@@ -348,3 +373,75 @@ h2{
 .buttons label{
   display: inline !important;
 }
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.test_class{
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+.poppins{
+  font-family: 'Poppins', sans-serif;
+}
+.next-btn{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+.opt{
+  margin-right: 6px;
+  cursor: pointer;
+  color: #1EBBA3;
+}
+.next-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.next-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+.next-btn:hover span {
+  padding-right: 25px;
+}
+.next-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* .radio{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+  padding-right: 20px;
+
+} */
+/* .radio input[type="radio"]{
+  /* display: none; */
+/*} */
+/* .radio .circle{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #eee;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
