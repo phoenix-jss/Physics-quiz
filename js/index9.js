@@ -1,5 +1,5 @@
 var quiz = {
-    questions : ["Formula of focal length of the combination of two lenses is :","Name the points which gives unit angular magnification :","Name the points which gives unit linear magnification :","How many Cardinal Points are there in optical systems?","What is the formula for lateral magnification?"],
+    questions : ["Q. Formula of focal length of the combination of two lenses is :","Q. Name the points which gives unit angular magnification :","Q. Name the points which gives unit linear magnification :","Q. How many Cardinal Points are there in optical systems?","Q. What is the formula for lateral magnification?"],
     opt1 : ["(1/f1+1/f2-x/f1f2)","principal points","principal points","2","(length of image/length of object)"],
     opt2 : ["(1/f1+1/f2+x/f1f2)","nodal points","nodal points","4","(length of object/length of image)"],
     opt3 : ["(1/f1-1/f2-x/f1f2)","focal points","focal points","6","(distance of image from focus/distance of object from focus)"],

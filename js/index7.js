@@ -1,5 +1,5 @@
 var quiz = {
-    questions : ["Formula of magnetic field intensity is F=2(3.14)nI/(r.10^x), where ‘x’ is","According to tangent law the magnetic field intensity(F) is","The value of current should be adjusted such that deflection in galvanometer lies between","What is the magnetic field outside a solenoid?","Which, among the following qualities, is not affected by the magnetic field?"],
+    questions : ["Q. Formula of magnetic field intensity is F=2(3.14)nI/(r.10^x), where ‘x’ is","Q. According to tangent law the magnetic field intensity(F) is","Q. The value of current should be adjusted such that deflection in galvanometer lies between","Q. What is the magnetic field outside a solenoid?","Q. Which, among the following qualities, is not affected by the magnetic field?"],
     opt1 : ["5","H tanθ","65-70","Infinity","Moving charge"],
     opt2 : ["6","H/tanθ","70-75","Half the value of the field inside","Change in magnetic flux"],
     opt3 : ["7","H cotθ","80-85","Double the value of the field inside","Current flowing in a conductor"],

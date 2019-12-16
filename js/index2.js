@@ -1,5 +1,5 @@
 var quiz = {
-    questions : ["Which type of lens is used in newton's ring experiment?","Centre of the rings is?","At what angle the glass plate is employed?","What is the Standard value of the wavelength of sodium light?","What happens when a dust particle comes between the two surfaces at the point of contact?"],
+    questions : ["Q. Which type of lens is used in newton's ring experiment?","Q. Centre of the rings is?","Q. At what angle the glass plate is employed?","Q. What is the Standard value of the wavelength of sodium light?","Q. What happens when a dust particle comes between the two surfaces at the point of contact?"],
     opt1 : ["Concave lens of large focal length","Bright","60°","5898 A°","Centre becomes bright"],
     opt2 : ["Plano concave lens of large focal length","Half moon","45°","5890 A°","Centre becomes dark"],
     opt3 : ["Plano convex lens of large focal length","Dark","75°","5873 A°","Diameter of Centre increases"],
