@@ -163,16 +163,59 @@ a:hover{
   opacity: .8;
   top: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
   transition: 0.5s ease;
 }
+.overlaybottom::-webkit-scrollbar{
+  display: none;
+}
+
+@media only screen and (max-width:1000px) and (min-width:576px){
+  #test1 .overlaybottom, #test2 .overlaybottom, #test3 .overlaybottom, #test4 .overlaybottom, #test6 .overlaybottom, #test7 .overlaybottom, #test8 .overlaybottom, #test9 .overlaybottom{
+    width:200px;
+    height: 400px;
+    overflow: visible;
+    display: none;
+  }
+    #test5 .overlaybottom,  #test10 .overlaybottom{
+      
+    width:200px;
+    height: 400px;
+    overflow: visible;
+    display: none;
+    
+    left:-100pt;
+  }
+
+  
+  #test1:hover .overlaybottom, #test2:hover .overlaybottom, #test3:hover .overlaybottom, #test4:hover .overlaybottom, #test5:hover .overlaybottom, #test6:hover .overlaybottom, #test7:hover .overlaybottom, #test8:hover .overlaybottom, #test9:hover .overlaybottom, #test10:hover .overlaybottom{
+    height:auto !important; 
+    display: block ;
+    opacity:0.9 ;
+    z-index: 1;
+  }
+  
+}
+
+@media only screen and (max-width: 1300px) and (min-width:1000px){
+  .content h3{
+  
+  margin-top:90pt;
+  }
+  #test7 .content h3,#test9 .content h3{
+  
+    margin-top:150pt;
+  }
+}
+
 
 #test1:hover .overlaybottom , #test2:hover .overlaybottom , #test3:hover .overlaybottom , #test4:hover .overlaybottom , #test5:hover .overlaybottom , #test6:hover .overlaybottom , #test7:hover .overlaybottom , #test8:hover .overlaybottom , #test9:hover .overlaybottom , #test10:hover .overlaybottom{
   top: 0;
-  height: 100%;
+  height:  100%;
 }
 
 .content h3{
+  
   text-align: center;
 }
 
