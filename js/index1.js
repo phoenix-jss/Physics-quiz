@@ -1,5 +1,5 @@
 var quiz = {
-    questions : ["On which principle it is based on?","On which of the following factors does specific resistance depends upon?","What is the unit of specific resistance?","What is the least count for screw gauge?","What is the correct expression for percentage error?"],
+    questions : ["Q. On which principle it is based on?","Q. On which of the following factors does specific resistance depends upon?","Q. What is the unit of specific resistance?","Q. What is the least count for screw gauge?","Q. What is the correct expression for percentage error?"],
     opt1 : ["refraction","length","ohm","0.001mm","(Standard Value - Observed Value)/ Standard Value X100"],
     opt2 : ["reflection","temp","mho","0.01mm","Standard Value/Observed Value"],
     opt3 : ["KVL","nature of material","henry","0.0001mm","Observed Value/Standard Value X100"],

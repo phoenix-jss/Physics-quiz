@@ -1,5 +1,5 @@
 var quiz = {
-    questions : ["What is the formula for wavelength of Spectral lines?","What is the formula of Grating Element?","Which gas is used to produce initial discharge in mercury lamp","What are the essential parts of spectrometer","Which Eye piece can be used in the telescope of spectrometer"],
+    questions : ["Q. What is the formula for wavelength of Spectral lines?","Q. What is the formula of Grating Element?","Q. Which gas is used to produce initial discharge in mercury lamp","Q. What are the essential parts of spectrometer","Q. Which Eye piece can be used in the telescope of spectrometer"],
     opt1 : ["(a+b)sinθ*n","(a+b)","Neon","collimeter","Ramdsens"],
     opt2 : ["(a+bn)sinθ","(a-b)","Argon","prismtable","Gauss"],
     opt3 : ["(a+b)sinθ/n","(a*b)","Hydrogen","Telescope","Both"],

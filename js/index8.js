@@ -1,5 +1,5 @@
 var quiz = {
-    questions : ["What does a polarimeter measure?","Polarimeter works on the principle of which of the following?","What is the effect of the I on the specific optical rotation (α), if I gets double?","Which of these is a comparatively insignificant factor affecting the magnitude of specific optical rotation?","What can be said with certainty if a compound has α= -9.25°?"],
+    questions : ["Q. What does a polarimeter measure?","Q. Polarimeter works on the principle of which of the following?","Q. What is the effect of the I on the specific optical rotation (α), if I gets double?","Q. Which of these is a comparatively insignificant factor affecting the magnitude of specific optical rotation?","Q. What can be said with certainty if a compound has α= -9.25°?"],
     opt1 : ["Polarity of the substance","polarisation of light","α gets double","Concentration of the substance of interest","The compound has the (S) configuration"],
     opt2 : ["Angle of rotation of an optical active compound","change of the electrical conductivity of solution with composition","α gets halved","Purity of the sample","The compound has the (R) configuration"],
     opt3 : ["Concentration of the substance","change of angle of refraction with composition","α gets four times","Temperature of the measurement","The compound is not a meso form"],

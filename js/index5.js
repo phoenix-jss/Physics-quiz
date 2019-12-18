@@ -1,5 +1,5 @@
 var quiz = {
-    questions : ["Mathematically Numerical Aperture is define as:","What can cause an error in this experiment?","What is the principle of working of an Optical Fibre?","On what factors the Numerical Aperture depends?","With what angle a ray should enter an Optical Fibre for propagation?"],
+    questions : ["Q. Mathematically Numerical Aperture is define as:","Q. What can cause an error in this experiment?","Q. What is the principle of working of an Optical Fibre?","Q. On what factors the Numerical Aperture depends?","Q. With what angle a ray should enter an Optical Fibre for propagation?"],
     opt1 : ["N.A. =  W/√(4L2+W2)","Intensity of LASER.","Refraction of light.","Wavelength of Light.","θ = sin-1μ"],
     opt2 : ["N.A. = L/√(4L2-W2)","Bend in Optical Fibre.","Refraction of light.","Refractive index.","θ<=∝"],
     opt3 : [" N.A. = W/√(4L2-W2)","Length of Optical Fibre.","TIR.","Length of the Optical Fibre.","θ>∝"],

@@ -1,6 +1,6 @@
 var quiz = {
-    questions : ["Which solution is used in copper voltameter?","Which acid is used to increase the conductivity of copper sulphate solution?","What deflection do we make in TG?","Reduction factor is given by","Give expression of tangent law."],
-    opt1 : ["Copper(ll) chloride","Sulphuric acid","60°","K= rH/μn","F= tanθ/H"],
+    questions : ["Q. Which solution is used in copper voltameter?","Q. Which acid is used to increase the conductivity of copper sulphate solution?","Q. What deflection do we make in TG?","Q. Reduction factor is given by","Q. Give expression of tangent law."],
+    opt1 : ["Copper(II) chloride","Sulphuric acid","60°","K= rH/μn","F= tanθ/H"],
     opt2 : ["Copper sulphate","Hydrochloric acid","30°","K= μr/2n","F= tan(θ+H)"],
     opt3 : ["Cupric hydroxide","Nitric acid","45°","K= H/rn","F= H tanθ"],
     opt4 : ["Cupric oxide","Chloric acid","90°","K= 2rH/ μn","F= H/tanθ"],

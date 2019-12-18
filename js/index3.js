@@ -1,9 +1,9 @@
 var quiz = {
-    questions : ["Which one of the following is the mathematical adaptation of Stefan’s Law?","Which form does the equation of the slope of Stefan’s Law have?","In this experiment,The graph of Stefan’s Law is plotted between :"," In this experiment, R0= ?","What could lead to an error in this experiment?"],
+    questions : ["Q. Which one of the following is the mathematical adaptation of Stefan’s Law?","Q. Which form does the equation of the slope of Stefan’s Law have?","Q. In this experiment,The graph of Stefan’s Law is plotted between :","Q. In this experiment, R0= ?","Q. What could lead to an error in this experiment?"],
     opt1 : ["E=σ(T-T0)","y=mx+c","Log10P on X-axis & Log10T on Y-axis","Rg/3","High Current"],
-    opt2 : ["E=σ(T2-T02)","y=4ax2","P on X-axis & T on Y-axis"," Rg","Steady Current"],
-    opt3 : ["E=σ(T3-T03)"," xy=1","Log10P on Y-axis & Log10T on X-axis","Rg/3.9","External Pressure"],
-    opt4 : ["E=σ(T4-T04)","  x2+y2=1","P on Y-axis & T on X-axis"," Rg/2","External Temperature"],
+    opt2 : ["E=σ(T2-T02)","y=4ax^2","P on X-axis & T on Y-axis"," Rg","Steady Current"],
+    opt3 : ["E=σ(T3-T03)"," xy=1","log10P on Y-axis & Log10T on X-axis","Rg/3.9","External Pressure"],
+    opt4 : ["E=σ(T4-T04)","  x^2+y^2=1","P on Y-axis & T on X-axis"," Rg/2","External Temperature"],
     answer : ["E=σ(T4-T04)","y=mx+c","Log10P on Y-axis & Log10T on X-axis","Rg/3.9"," High Current"]
 };
 
