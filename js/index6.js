@@ -1,5 +1,5 @@
 var quiz = {
-    questions : ["How does a semiconductor behave at absolute zero?","Total electrical conductivity in a semiconductor(σ) is given by","formula for bandgap is E=2K*slope*10^x,where x is","What are the charge carriers in semiconductors?","Which of the following is known as indirect band gap semiconductors?"],
+    questions : ["Q. How does a semiconductor behave at absolute zero?","Q. Total electrical conductivity in a semiconductor(σ) is given by","Q. Formula for bandgap is E=2K*slope*10^x,where x is","Q. What are the charge carriers in semiconductors?","Q. Which of the following is known as indirect band gap semiconductors?"],
     opt1 : ["Conductor","e(μe*ne+μh*nh)","1","Electrons and holes","Germanium"],
     opt2 : ["Insulator","e(μe*ne-μh*nh)","2","Electrons","Nickel"],
     opt3 : ["Semiconductor","μe*ne+μh*nh","3","Holes","Platinum"],
